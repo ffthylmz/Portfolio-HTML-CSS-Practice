@@ -1,0 +1,100 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-menu a {
+    display: block;
+    line-height: 2;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-menu a:hover {
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+.sidebar-menu a:visited {
+    color: aquamarine;
+}
+
+.sidebar-menu a:active {
+    color: blueviolet;
+}
+
+.sidebar {
+    width: 190px;
+    padding: 10px;
+    position: fixed;
+}
+
+.content {
+    margin-left: 200px;
+}
+
+.filters {
+    margin-top: 2em;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.filters>span {
+    margin-right: 1rem;
+}
+
+.filters>a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: .6rem 1rem;
+}
+
+.filters a:hover {
+    background-color: black;
+    color: white;
+}
+
+.filters>a.active:hover {
+    color: red;
+}
+
+.portfolio-items {
+    display: flex;
+    margin: 1rem -0.5rem;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    padding: 0 0.5rem 2rem;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item-body {
+    background-color: white;
+    padding: 1rem;
+}
+
+.portfolio-item-image {
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+
+.portfolio-item-image:hover {
+    background-color: orange;
+}
+
+.portfolio-item-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+
+}
+
+.portfolio-item-desc {
+    font-style: italic;
+    text-align: justify;
+    text-indent: 20px;
+
+}
